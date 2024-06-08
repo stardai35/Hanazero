@@ -1,0 +1,81 @@
+.carousel-home img {
+  max-height: 230px;
+}
+
+body {
+  padding-top: 7em;
+  background-image: url("../img/grungy-white-background-natural-cement-stone-old-texture-as-retro-pattern-wall.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  font-family: 'Poppins', sans-serif;
+}
+
+body .col {
+  background-color: #fff;
+}
+
+.alur img {
+  width: 120px;
+  height: 120;
+}
+
+.table-alat th, .table-sewa th {
+  text-align: center;
+}
+
+.table-alat img, .table-sewa img {
+  width: 110px;
+  height: 110px;
+}
+
+.table-alat .input-group, .table-sewa .input-group {
+  max-width: 12em;
+}
+
+.table-sewa .table td, .table-alat .table td {
+  text-align: center;
+  font-weight: 400;
+}
+
+.public-navbar {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#0092ac), to(#04b1c7));
+  background-image: linear-gradient(to bottom, #0092ac, #04b1c7);
+}
+
+.public-navbar .nav-link {
+  color: #fff !important;
+  font-size: 18px;
+  font-weight: 200;
+}
+
+.admin-navbar {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#e4a443), to(#d69532));
+  background-image: linear-gradient(to bottom, #e4a443, #d69532);
+}
+
+.admin-navbar .nav-link {
+  color: #fff !important;
+  font-size: 17px;
+  font-weight: 200;
+}
+
+.reporting {
+  background-image: none;
+  padding-top: 0;
+}
+
+.reporting h2 {
+  text-align: center;
+  padding-bottom: 0;
+}
+
+.reporting h4 {
+  text-align: center;
+}
+
+footer .jumbotron {
+  background-color: #4b5b6b;
+  color: #fff;
+  font-weight: 300;
+}

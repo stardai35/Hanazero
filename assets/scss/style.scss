@@ -1,0 +1,86 @@
+
+$color-white : #fff;
+
+.carousel-home {
+    img {
+        max-height: 130px;
+    }
+}
+
+body {
+    padding-top: 7em;
+    background-image: url('../img/4706614.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: 'Poppins', sans-serif;
+    .col {
+        background-color: #fff;
+    }
+}
+
+.alur {
+    img {
+        width: 120px;
+        height: 120;
+    }
+}
+
+.table-alat, .table-sewa {
+    th {
+        text-align: center;
+    }
+    img {
+        width: 110px;
+        height: 110px;
+    }
+    .input-group {
+        max-width: 12em;
+    }
+}
+
+.table-sewa, .table-alat {
+    .table {
+        td {
+            text-align: center;
+            font-weight: 400;
+        }
+    }
+}
+
+.public-navbar {
+    background-image: linear-gradient(to bottom, #0092ac, #04b1c7);
+    .nav-link {
+        color: $color-white !important;
+        font-size: 18px;
+        font-weight: 200;
+    }
+}
+.admin-navbar {
+    background-image: linear-gradient(to bottom, #e4a443, #d69532);
+    .nav-link {
+        color: $color-white !important;
+        font-size: 17px;
+        font-weight: 200;
+    }
+}
+
+.reporting {
+    background-image: none;
+    padding-top: 0;
+    h2 {
+        text-align: center;
+        padding-bottom: 0;
+    }
+    h4 {
+        text-align: center;
+    }
+}
+
+footer {
+    .jumbotron {
+        background-color: #4b5b6b;
+        color: $color-white;
+        font-weight: 300;
+    }
+}
